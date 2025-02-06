@@ -1,0 +1,1 @@
+Симуляция созданная по мотивам https://my-js.org/docs/guide/shorelark
