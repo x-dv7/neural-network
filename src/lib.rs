@@ -9,7 +9,7 @@ use self::neuron::*;
 use rand::{Rng, RngCore};
 use std::iter::once;
 // use std::sync::Arc;
-// pub use self::soft_net::*;
+// pub use self::soft_net::*; //NOT USED
 pub use self::flex_net::*;
 use std::collections::HashMap;
 use itertools::Itertools;

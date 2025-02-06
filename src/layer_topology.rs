@@ -7,7 +7,7 @@ pub struct LayerTopology {
 
 /// Топология слоя
 #[derive(Clone, Debug)]
-pub struct LayerTopologySoft {
+pub struct LayerTopologySoft { //NOT USED
     /// Количество нейронов в слое
     pub neurons: usize,
     /// Список номеров нейронов слоя
