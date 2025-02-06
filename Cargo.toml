@@ -1,0 +1,15 @@
+[package]
+name = "lib-neural-network"
+version = "0.4.0"
+authors = [ "Дмитрий <dv7@bk.ru>" ]
+edition = "2021"
+
+[dependencies]
+candle-core = { git = "https://github.com/huggingface/candle.git" } #, version = "0.6.0"
+candle-nn = { git = "https://github.com/huggingface/candle.git" }
+rand = "0.8"
+rand_chacha = "0.3"
+itertools = "0.14"
+
+[dev-dependencies]
+approx = "0.5"
